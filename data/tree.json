@@ -1,0 +1,29 @@
+{
+  "roots": [
+    {
+      "key": "kb6bj3ut4d61aof208ddmfq",
+      "title": "Tests",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "docs",
+      "children": [
+        {
+          "key": "7yfd5b1mliky0zjw48bvq1y",
+          "title": "firstPage",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "docs",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "child2parent": {
+    "kb6bj3ut4d61aof208ddmfq": null,
+    "7yfd5b1mliky0zjw48bvq1y": "kb6bj3ut4d61aof208ddmfq"
+  },
+  "notesLabelById": {
+    "kb6bj3ut4d61aof208ddmfq": "Tests",
+    "7yfd5b1mliky0zjw48bvq1y": "firstPage"
+  }
+}
