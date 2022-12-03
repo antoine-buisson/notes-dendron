@@ -40,9 +40,7 @@ jobs:
         key: ${{ runner.os }}-nextjs-${{ hashFiles('.next/yarn.lock', '.next/package-lock.json') }}-${{ hashFiles('.next/**.[jt]s', '.next/**.[jt]sx') }}
 
     - name: Export notes
-      run: |
-        cd /home/runner/work/notes-dendron/notes-dendron
-        yarn dendron publish export --target github --yes
+      run: yarn dendron publish export --target github --yes
 
     - name: Deploy site
       uses: peaceiris/actions-gh-pages@v3
