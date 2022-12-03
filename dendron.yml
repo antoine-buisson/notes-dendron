@@ -90,6 +90,7 @@ publishing:
         - root
     writeStubs: false
     siteRootDir: docs
+    assetsPrefix: /notes-dendron
     siteUrl: https://antoine-buisson.github.io
     seo:
         title: Dendron
