@@ -41,7 +41,7 @@ jobs:
 
     - name: Export notes
       run: |
-        cd notes-dendron/notes-dendron
+        cd /home/runner/work/notes-dendron/notes-dendron
         yarn dendron publish export --target github --yes
 
     - name: Deploy site
